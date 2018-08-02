@@ -116,6 +116,8 @@ I have started developing a simple React application, with back-end in Python (F
 
 This Flask application serves the React files generated with `npm run build` for production and fetch and manipulate data from [Oxford Dictionaries API](https://developer.oxforddictionaries.com/).
 
+The [Magic E](https://glalsp.com) app.
+
 ### Third party resources
 - finger: an application that helps handle users
 - Let's Encrypt: provides SSL certificate, required for Facebook OAuth.

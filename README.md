@@ -114,3 +114,9 @@ The ServerName, if lacking a domain, can be the IP Address of the server.
 - Let's Encrypt: provides SSL certificate, required for Facebook OAuth.
 - SQLAlchemy: Python framework for database connection
 - psycopg2: Python module to connect to a Postgresql database
+
+### Another application
+
+I have started developing a simple React application, with back-end in Python (Flask), called "Magic E". It is intended to help kids understand the use of the silent E, or "Magic E" in many English one-syllable words.
+
+This Flask application serves the React files generated with `npm run build` for production and fetch and manipulate data from [Oxford Dictionaries API](https://developer.oxforddictionaries.com/).

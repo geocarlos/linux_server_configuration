@@ -73,6 +73,8 @@ from app import app as application``
 
 Since I had developed the Catalog project with SQLite, I had to adapt it to Postgresql, by installing the module psycopg2: `$ pip install psycopg2`
 
+The [Catalog App](https://catalogapp.online/).
+
 #### Configure a Virtual Host for the Catalog app:
 
 - Create the file /etc/apache2/sites-available/catalogapp.conf:

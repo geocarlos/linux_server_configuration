@@ -19,7 +19,8 @@ SSH port: 2200
 The packages were updated with the commands `sudo apt-get update` and `sudo apt-get upgrade`
 
 ### Configure SSH and UFW
-- Change SSH port to 2200 in file `/etc/ssh/sshd_config`
+- Change SSH port to 2200 in file `/etc/ssh/sshd_config`. In the same file disable password authentication. Change `PasswordAuthentication yes` to `PasswordAuthentication no`
+
 - Check UFW by running `sudo ufw status`
 - Keep UFW inactive and deny everything in, by running `sudo ufw default deny incoming`
 - Allow everything out by running `sudo ufw default allow outgoing`
